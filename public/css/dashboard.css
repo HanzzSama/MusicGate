@@ -134,6 +134,88 @@ body{
     text-transform: capitalize;
     color: #313131;
 }
+.data {
+    width: 100%;
+    margin-top: 2em;
+    border-collapse: collapse;
+}
+.data thead tr {
+    border-top: 1px solid #c6cad9;
+    border-bottom: 1px solid #c6cad9;
+}
+.data thead tr th {
+    padding: 10px 0;
+    font-weight: 550;
+    color: #656565;
+    letter-spacing: 0.4px;
+    text-transform: capitalize;
+}
+.data tbody tr:nth-child(even) {
+    background: #ecf0f3;
+}
+.data tbody tr td {
+    /* display: flex; */
+    text-align: center;
+    padding: 15px 0;
+    text-transform: capitalize;
+}
+.data-harga{
+    display: flex;
+}
+.data button {
+    background: transparent;
+    padding: 6px 20px;
+    border-radius: 6px;
+    border: none;
+    color: #434c69;
+    font-weight: 550;
+    text-transform: capitalize;
+    letter-spacing: 0.5px;
+    border: 2px solid #8591b8;
+}
+.data button:nth-child(2) {
+    background: transparent;
+    padding: 6px 20px;
+    border-radius: 6px;
+    border: none;
+    color: #923939;
+    font-weight: 550;
+    text-transform: capitalize;
+    letter-spacing: 0.5px;
+    border: 2px solid #e56363;
+}
+.data-img {
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+.data img {
+    width: 7em;
+    height: 7em;
+    object-fit: cover;
+    border-radius: 8px;
+}
+.image {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    background: #e6e6e694;
+    width: 100%;
+    backdrop-filter: blur(6px);
+    border-radius: 6px;
+}
+#cover-img {
+    width: 100%;
+    object-fit: cover;
+}
+.action{
+    display: flex;
+    flex-direction: column;
+}
+.action button{
+    min-width: 9em;
+    max-width: 9em;
+}
 /* ========== Form Tiket ========== */
 .form-tiket{
     width: 100%;
